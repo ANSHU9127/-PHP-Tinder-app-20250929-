@@ -1,0 +1,18 @@
+
+openapi: 3.0.0
+info:
+  title: Tinder API
+  version: 1.0.0
+paths:
+  /people:
+    get:
+      summary: Get recommended people
+  /people/{id}/like:
+    post:
+      summary: Like person
+  /people/{id}/dislike:
+    post:
+      summary: Dislike person
+  /liked:
+    get:
+      summary: Liked people list

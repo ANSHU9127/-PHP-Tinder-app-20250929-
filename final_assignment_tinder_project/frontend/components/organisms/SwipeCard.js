@@ -1,0 +1,1 @@
+// Tinder swipe card implementation placeholder
